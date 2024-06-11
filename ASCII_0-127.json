@@ -1,0 +1,1156 @@
+{
+    "CHARACTERS": [
+        {
+            "SYMBOL": "NUL",
+            "DESCRIPTION": "Null Character",
+            "BINARY": "00000000",
+            "OCTAL": "000",
+            "DECIMAL": "0",
+            "HEXADECIMAL": "00",
+            "UNICODE": "U+0000"
+        },
+        {
+            "SYMBOL": "SOH",
+            "DESCRIPTION": "Start of Header",
+            "BINARY": "00000001",
+            "OCTAL": "001",
+            "DECIMAL": "1",
+            "HEXADECIMAL": "01",
+            "UNICODE": "U+0001"
+        },
+        {
+            "SYMBOL": "STX",
+            "DESCRIPTION": "Start of Text",
+            "BINARY": "00000010",
+            "OCTAL": "002",
+            "DECIMAL": "2",
+            "HEXADECIMAL": "02",
+            "UNICODE": "U+0002"
+        },
+        {
+            "SYMBOL": "ETX",
+            "DESCRIPTION": "End of Text",
+            "BINARY": "00000011",
+            "OCTAL": "003",
+            "DECIMAL": "3",
+            "HEXADECIMAL": "03",
+            "UNICODE": "U+0003"
+        },
+        {
+            "SYMBOL": "EOT",
+            "DESCRIPTION": "End of Transmission",
+            "BINARY": "00000100",
+            "OCTAL": "004",
+            "DECIMAL": "4",
+            "HEXADECIMAL": "04",
+            "UNICODE": "U+0004"
+        },
+        {
+            "SYMBOL": "ENQ",
+            "DESCRIPTION": "Enquiry",
+            "BINARY": "00000101",
+            "OCTAL": "005",
+            "DECIMAL": "5",
+            "HEXADECIMAL": "05",
+            "UNICODE": "U+0005"
+        },
+        {
+            "SYMBOL": "ACK",
+            "DESCRIPTION": "Acknowledgment",
+            "BINARY": "00000110",
+            "OCTAL": "006",
+            "DECIMAL": "6",
+            "HEXADECIMAL": "06",
+            "UNICODE": "U+0006"
+        },
+        {
+            "SYMBOL": "BEL",
+            "DESCRIPTION": "Bell",
+            "BINARY": "00000111",
+            "OCTAL": "007",
+            "DECIMAL": "7",
+            "HEXADECIMAL": "07",
+            "UNICODE": "U+0007"
+        },
+        {
+            "SYMBOL": "BS",
+            "DESCRIPTION": "Backspace",
+            "BINARY": "00001000",
+            "OCTAL": "010",
+            "DECIMAL": "8",
+            "HEXADECIMAL": "08",
+            "UNICODE": "U+0008"
+        },
+        {
+            "SYMBOL": "HT",
+            "DESCRIPTION": "Horizontal Tab",
+            "BINARY": "00001001",
+            "OCTAL": "011",
+            "DECIMAL": "9",
+            "HEXADECIMAL": "09",
+            "UNICODE": "U+0009"
+        },
+        {
+            "SYMBOL": "LF",
+            "DESCRIPTION": "Line Feed",
+            "BINARY": "00001010",
+            "OCTAL": "012",
+            "DECIMAL": "10",
+            "HEXADECIMAL": "0A",
+            "UNICODE": "U+000A"
+        },
+        {
+            "SYMBOL": "VT",
+            "DESCRIPTION": "Vertical Tab",
+            "BINARY": "00001011",
+            "OCTAL": "013",
+            "DECIMAL": "11",
+            "HEXADECIMAL": "0B",
+            "UNICODE": "U+000B"
+        },
+        {
+            "SYMBOL": "FF",
+            "DESCRIPTION": "Form Feed",
+            "BINARY": "00001100",
+            "OCTAL": "014",
+            "DECIMAL": "12",
+            "HEXADECIMAL": "0C",
+            "UNICODE": "U+000C"
+        },
+        {
+            "SYMBOL": "CR",
+            "DESCRIPTION": "Carriage Return",
+            "BINARY": "00001101",
+            "OCTAL": "015",
+            "DECIMAL": "13",
+            "HEXADECIMAL": "0D",
+            "UNICODE": "U+000D"
+        },
+        {
+            "SYMBOL": "SO",
+            "DESCRIPTION": "Shift Out",
+            "BINARY": "00001110",
+            "OCTAL": "016",
+            "DECIMAL": "14",
+            "HEXADECIMAL": "0E",
+            "UNICODE": "U+000E"
+        },
+        {
+            "SYMBOL": "SI",
+            "DESCRIPTION": "Shift In",
+            "BINARY": "00001111",
+            "OCTAL": "017",
+            "DECIMAL": "15",
+            "HEXADECIMAL": "0F",
+            "UNICODE": "U+000F"
+        },
+        {
+            "SYMBOL": "DLE",
+            "DESCRIPTION": "Data Link Escape",
+            "BINARY": "00010000",
+            "OCTAL": "020",
+            "DECIMAL": "16",
+            "HEXADECIMAL": "10",
+            "UNICODE": "U+0010"
+        },
+        {
+            "SYMBOL": "DC1",
+            "DESCRIPTION": "Device Control 1 (XON)",
+            "BINARY": "00010001",
+            "OCTAL": "021",
+            "DECIMAL": "17",
+            "HEXADECIMAL": "11",
+            "UNICODE": "U+0011"
+        },
+        {
+            "SYMBOL": "DC2",
+            "DESCRIPTION": "Device Control 2",
+            "BINARY": "00010010",
+            "OCTAL": "022",
+            "DECIMAL": "18",
+            "HEXADECIMAL": "12",
+            "UNICODE": "U+0012"
+        },
+        {
+            "SYMBOL": "DC3",
+            "DESCRIPTION": "Device Control 3 (XOFF)",
+            "BINARY": "00010011",
+            "OCTAL": "023",
+            "DECIMAL": "19",
+            "HEXADECIMAL": "13",
+            "UNICODE": "U+0013"
+        },
+        {
+            "SYMBOL": "DC4",
+            "DESCRIPTION": "Device Control 4",
+            "BINARY": "00010100",
+            "OCTAL": "024",
+            "DECIMAL": "20",
+            "HEXADECIMAL": "14",
+            "UNICODE": "U+0014"
+        },
+        {
+            "SYMBOL": "NAK",
+            "DESCRIPTION": "Negative Acknowledgement",
+            "BINARY": "00010101",
+            "OCTAL": "025",
+            "DECIMAL": "25",
+            "HEXADECIMAL": "15",
+            "UNICODE": "U+0015"
+        },
+        {
+            "SYMBOL": "SYN",
+            "DESCRIPTION": "Synchronous Idle",
+            "BINARY": "00010110",
+            "OCTAL": "026",
+            "DECIMAL": "26",
+            "HEXADECIMAL": "16",
+            "UNICODE": "U+0016"
+        },
+        {
+            "SYMBOL": "ETB",
+            "DESCRIPTION": "End of Transmission Block",
+            "BINARY": "00010111",
+            "OCTAL": "027",
+            "DECIMAL": "27",
+            "HEXADECIMAL": "17",
+            "UNICODE": "U+0017"
+        },
+        {
+            "SYMBOL": "CAN",
+            "DESCRIPTION": "Cancel",
+            "BINARY": "00011000",
+            "OCTAL": "030",
+            "DECIMAL": "28",
+            "HEXADECIMAL": "18",
+            "UNICODE": "U+0018"
+        },
+        {
+            "SYMBOL": "EM",
+            "DESCRIPTION": "End of Medium",
+            "BINARY": "00011001",
+            "OCTAL": "031",
+            "DECIMAL": "29",
+            "HEXADECIMAL": "19",
+            "UNICODE": "U+0019"
+        },
+        {
+            "SYMBOL": "SUB",
+            "DESCRIPTION": "Substitute",
+            "BINARY": "00011010",
+            "OCTAL": "032",
+            "DECIMAL": "30",
+            "HEXADECIMAL": "1A",
+            "UNICODE": "U+001A"
+        },
+        {
+            "SYMBOL": "ESC",
+            "DESCRIPTION": "Escape",
+            "BINARY": "00011011",
+            "OCTAL": "033",
+            "DECIMAL": "31",
+            "HEXADECIMAL": "1B",
+            "UNICODE": "U+001B"
+        },
+        {
+            "SYMBOL": "FS",
+            "DESCRIPTION": "File Separator",
+            "BINARY": "00011100",
+            "OCTAL": "034",
+            "DECIMAL": "32",
+            "HEXADECIMAL": "1C",
+            "UNICODE": "U+001C"
+        },
+        {
+            "SYMBOL": "GS",
+            "DESCRIPTION": "Group Separator",
+            "BINARY": "00011101",
+            "OCTAL": "035",
+            "DECIMAL": "33",
+            "HEXADECIMAL": "1D",
+            "UNICODE": "U+001D"
+        },
+        {
+            "SYMBOL": "RS",
+            "DESCRIPTION": "Record Separator",
+            "BINARY": "00011110",
+            "OCTAL": "036",
+            "DECIMAL": "34",
+            "HEXADECIMAL": "1E",
+            "UNICODE": "U+001E"
+        },
+        {
+            "SYMBOL": "US",
+            "DESCRIPTION": "Unit Separator",
+            "BINARY": "00011111",
+            "OCTAL": "037",
+            "DECIMAL": "35",
+            "HEXADECIMAL": "1F",
+            "UNICODE": "U+001F"
+        },
+        {
+            "SYMBOL": "SPACE",
+            "DESCRIPTION": "Space",
+            "BINARY": "00100000",
+            "OCTAL": "040",
+            "DECIMAL": "32",
+            "HEXADECIMAL": "20",
+            "UNICODE": "U+0020"
+        },
+        {
+            "SYMBOL": "!",
+            "DESCRIPTION": "Exclamation Mark",
+            "BINARY": "00100001",
+            "OCTAL": "041",
+            "DECIMAL": "33",
+            "HEXADECIMAL": "21",
+            "UNICODE": "U+0021"
+        },
+        {
+            "SYMBOL": "\"",
+            "DESCRIPTION": "Quotation Mark",
+            "BINARY": "00100010",
+            "OCTAL": "042",
+            "DECIMAL": "34",
+            "HEXADECIMAL": "22",
+            "UNICODE": "U+0022"
+        },
+        {
+            "SYMBOL": "#",
+            "DESCRIPTION": "Number Sign",
+            "BINARY": "00100011",
+            "OCTAL": "043",
+            "DECIMAL": "35",
+            "HEXADECIMAL": "23",
+            "UNICODE": "U+0023"
+        },
+        {
+            "SYMBOL": "$",
+            "DESCRIPTION": "Dollar Sign",
+            "BINARY": "00100100",
+            "OCTAL": "044",
+            "DECIMAL": "36",
+            "HEXADECIMAL": "24",
+            "UNICODE": "U+0024"
+        },
+        {
+            "SYMBOL": "%",
+            "DESCRIPTION": "Percent Sign",
+            "BINARY": "00100101",
+            "OCTAL": "045",
+            "DECIMAL": "37",
+            "HEXADECIMAL": "25",
+            "UNICODE": "U+0025"
+        },
+        {
+            "SYMBOL": "&",
+            "DESCRIPTION": "Ampersand",
+            "BINARY": "00100110",
+            "OCTAL": "046",
+            "DECIMAL": "38",
+            "HEXADECIMAL": "26",
+            "UNICODE": "U+0026"
+        },
+        {
+            "SYMBOL": "'",
+            "DESCRIPTION": "Apostrophe",
+            "BINARY": "00100111",
+            "OCTAL": "047",
+            "DECIMAL": "39",
+            "HEXADECIMAL": "27",
+            "UNICODE": "U+0027"
+        },
+        {
+            "SYMBOL": "(",
+            "DESCRIPTION": "Left Parenthesis",
+            "BINARY": "00101000",
+            "OCTAL": "050",
+            "DECIMAL": "40",
+            "HEXADECIMAL": "28",
+            "UNICODE": "U+0028"
+        },
+        {
+            "SYMBOL": ")",
+            "DESCRIPTION": "Right Parenthesis",
+            "BINARY": "00101001",
+            "OCTAL": "051",
+            "DECIMAL": "41",
+            "HEXADECIMAL": "29",
+            "UNICODE": "U+0029"
+        },
+        {
+            "SYMBOL": "*",
+            "DESCRIPTION": "Asterisk",
+            "BINARY": "00101010",
+            "OCTAL": "052",
+            "DECIMAL": "42",
+            "HEXADECIMAL": "2A",
+            "UNICODE": "U+002A"
+        },
+        {
+            "SYMBOL": "+",
+            "DESCRIPTION": "Plus Sign",
+            "BINARY": "00101011",
+            "OCTAL": "053",
+            "DECIMAL": "43",
+            "HEXADECIMAL": "2B",
+            "UNICODE": "U+002B"
+        },
+        {
+            "SYMBOL": ",",
+            "DESCRIPTION": "Comma",
+            "BINARY": "00101100",
+            "OCTAL": "054",
+            "DECIMAL": "44",
+            "HEXADECIMAL": "2C",
+            "UNICODE": "U+002C"
+        },
+        {
+            "SYMBOL": "-",
+            "DESCRIPTION": "Hyphen-Minus",
+            "BINARY": "00101101",
+            "OCTAL": "055",
+            "DECIMAL": "45",
+            "HEXADECIMAL": "2D",
+            "UNICODE": "U+002D"
+        },
+        {
+            "SYMBOL": ".",
+            "DESCRIPTION": "Full Stop",
+            "BINARY": "00101110",
+            "OCTAL": "056",
+            "DECIMAL": "46",
+            "HEXADECIMAL": "2E",
+            "UNICODE": "U+002E"
+        },
+        {
+            "SYMBOL": "/",
+            "DESCRIPTION": "Solidus (Slash)",
+            "BINARY": "00101111",
+            "OCTAL": "057",
+            "DECIMAL": "47",
+            "HEXADECIMAL": "2F",
+            "UNICODE": "U+002F"
+        },
+        {
+            "SYMBOL": "0",
+            "DESCRIPTION": "Digit Zero",
+            "BINARY": "00110000",
+            "OCTAL": "060",
+            "DECIMAL": "48",
+            "HEXADECIMAL": "30",
+            "UNICODE": "U+0030"
+        },
+        {
+            "SYMBOL": "1",
+            "DESCRIPTION": "Digit One",
+            "BINARY": "00110001",
+            "OCTAL": "061",
+            "DECIMAL": "49",
+            "HEXADECIMAL": "31",
+            "UNICODE": "U+0031"
+        },
+        {
+            "SYMBOL": "2",
+            "DESCRIPTION": "Digit Two",
+            "BINARY": "00110010",
+            "OCTAL": "062",
+            "DECIMAL": "50",
+            "HEXADECIMAL": "32",
+            "UNICODE": "U+0032"
+        },
+        {
+            "SYMBOL": "3",
+            "DESCRIPTION": "Digit Three",
+            "BINARY": "00110011",
+            "OCTAL": "063",
+            "DECIMAL": "51",
+            "HEXADECIMAL": "33",
+            "UNICODE": "U+0033"
+        },
+        {
+            "SYMBOL": "4",
+            "DESCRIPTION": "Digit Four",
+            "BINARY": "00110100",
+            "OCTAL": "064",
+            "DECIMAL": "52",
+            "HEXADECIMAL": "34",
+            "UNICODE": "U+0034"
+        },
+        {
+            "SYMBOL": "5",
+            "DESCRIPTION": "Digit Five",
+            "BINARY": "00110101",
+            "OCTAL": "065",
+            "DECIMAL": "53",
+            "HEXADECIMAL": "35",
+            "UNICODE": "U+0035"
+        },
+        {
+            "SYMBOL": "6",
+            "DESCRIPTION": "Digit Six",
+            "BINARY": "00110110",
+            "OCTAL": "066",
+            "DECIMAL": "54",
+            "HEXADECIMAL": "36",
+            "UNICODE": "U+0036"
+        },
+        {
+            "SYMBOL": "7",
+            "DESCRIPTION": "Digit Seven",
+            "BINARY": "00110111",
+            "OCTAL": "067",
+            "DECIMAL": "55",
+            "HEXADECIMAL": "37",
+            "UNICODE": "U+0037"
+        },
+        {
+            "SYMBOL": "8",
+            "DESCRIPTION": "Digit Eight",
+            "BINARY": "00111000",
+            "OCTAL": "070",
+            "DECIMAL": "56",
+            "HEXADECIMAL": "38",
+            "UNICODE": "U+0038"
+        },
+        {
+            "SYMBOL": "9",
+            "DESCRIPTION": "Digit Nine",
+            "BINARY": "00111001",
+            "OCTAL": "071",
+            "DECIMAL": "57",
+            "HEXADECIMAL": "39",
+            "UNICODE": "U+0039"
+        },
+        {
+            "SYMBOL": ":",
+            "DESCRIPTION": "Colon",
+            "BINARY": "00111010",
+            "OCTAL": "072",
+            "DECIMAL": "58",
+            "HEXADECIMAL": "3A",
+            "UNICODE": "U+003A"
+        },
+        {
+            "SYMBOL": ";",
+            "DESCRIPTION": "Semicolon",
+            "BINARY": "00111011",
+            "OCTAL": "073",
+            "DECIMAL": "59",
+            "HEXADECIMAL": "3B",
+            "UNICODE": "U+003B"
+        },
+        {
+            "SYMBOL": "<",
+            "DESCRIPTION": "Less-Than Sign",
+            "BINARY": "00111100",
+            "OCTAL": "074",
+            "DECIMAL": "60",
+            "HEXADECIMAL": "3C",
+            "UNICODE": "U+003C"
+        },
+        {
+            "SYMBOL": "=",
+            "DESCRIPTION": "Equals Sign",
+            "BINARY": "00111101",
+            "OCTAL": "075",
+            "DECIMAL": "61",
+            "HEXADECIMAL": "3D",
+            "UNICODE": "U+003D"
+        },
+        {
+            "SYMBOL": ">",
+            "DESCRIPTION": "Greater-Than Sign",
+            "BINARY": "00111110",
+            "OCTAL": "076",
+            "DECIMAL": "62",
+            "HEXADECIMAL": "3E",
+            "UNICODE": "U+003E"
+        },
+        {
+            "SYMBOL": "?",
+            "DESCRIPTION": "Question Mark",
+            "BINARY": "00111111",
+            "OCTAL": "077",
+            "DECIMAL": "63",
+            "HEXADECIMAL": "3F",
+            "UNICODE": "U+003F"
+        },
+        {
+            "SYMBOL": "@",
+            "DESCRIPTION": "Commercial At",
+            "BINARY": "01000000",
+            "OCTAL": "100",
+            "DECIMAL": "64",
+            "HEXADECIMAL": "40",
+            "UNICODE": "U+0040"
+        },
+        {
+            "SYMBOL": "A",
+            "DESCRIPTION": "Capital Letter A",
+            "BINARY": "01000001",
+            "OCTAL": "101",
+            "DECIMAL": "65",
+            "HEXADECIMAL": "41",
+            "UNICODE": "U+0041"
+        },
+        {
+            "SYMBOL": "B",
+            "DESCRIPTION": "Capital Letter B",
+            "BINARY": "01000010",
+            "OCTAL": "102",
+            "DECIMAL": "66",
+            "HEXADECIMAL": "42",
+            "UNICODE": "U+0042"
+        },
+        {
+            "SYMBOL": "C",
+            "DESCRIPTION": "Capital Letter C",
+            "BINARY": "01000011",
+            "OCTAL": "103",
+            "DECIMAL": "67",
+            "HEXADECIMAL": "43",
+            "UNICODE": "U+0043"
+        },
+        {
+            "SYMBOL": "D",
+            "DESCRIPTION": "Capital Letter D",
+            "BINARY": "01000100",
+            "OCTAL": "104",
+            "DECIMAL": "68",
+            "HEXADECIMAL": "44",
+            "UNICODE": "U+0044"
+        },
+        {
+            "SYMBOL": "E",
+            "DESCRIPTION": "Capital Letter E",
+            "BINARY": "01000101",
+            "OCTAL": "105",
+            "DECIMAL": "69",
+            "HEXADECIMAL": "45",
+            "UNICODE": "U+0045"
+        },
+        {
+            "SYMBOL": "F",
+            "DESCRIPTION": "Capital Letter F",
+            "BINARY": "01000110",
+            "OCTAL": "106",
+            "DECIMAL": "70",
+            "HEXADECIMAL": "46",
+            "UNICODE": "U+0046"
+        },
+        {
+            "SYMBOL": "G",
+            "DESCRIPTION": "Capital Letter G",
+            "BINARY": "01000111",
+            "OCTAL": "107",
+            "DECIMAL": "71",
+            "HEXADECIMAL": "47",
+            "UNICODE": "U+0047"
+        },
+        {
+            "SYMBOL": "H",
+            "DESCRIPTION": "Capital Letter H",
+            "BINARY": "01001000",
+            "OCTAL": "110",
+            "DECIMAL": "72",
+            "HEXADECIMAL": "48",
+            "UNICODE": "U+0048"
+        },
+        {
+            "SYMBOL": "I",
+            "DESCRIPTION": "Capital Letter I",
+            "BINARY": "01001001",
+            "OCTAL": "111",
+            "DECIMAL": "73",
+            "HEXADECIMAL": "49",
+            "UNICODE": "U+0049"
+        },
+        {
+            "SYMBOL": "J",
+            "DESCRIPTION": "Capital Letter J",
+            "BINARY": "01001010",
+            "OCTAL": "112",
+            "DECIMAL": "74",
+            "HEXADECIMAL": "4A",
+            "UNICODE": "U+004A"
+        },
+        {
+            "SYMBOL": "K",
+            "DESCRIPTION": "Capital Letter K",
+            "BINARY": "01001011",
+            "OCTAL": "113",
+            "DECIMAL": "75",
+            "HEXADECIMAL": "4B",
+            "UNICODE": "U+004B"
+        },
+        {
+            "SYMBOL": "L",
+            "DESCRIPTION": "Capital Letter L",
+            "BINARY": "01001100",
+            "OCTAL": "114",
+            "DECIMAL": "76",
+            "HEXADECIMAL": "4C",
+            "UNICODE": "U+004C"
+        },
+        {
+            "SYMBOL": "M",
+            "DESCRIPTION": "Capital Letter M",
+            "BINARY": "01001101",
+            "OCTAL": "115",
+            "DECIMAL": "77",
+            "HEXADECIMAL": "4D",
+            "UNICODE": "U+004D"
+        },
+        {
+            "SYMBOL": "N",
+            "DESCRIPTION": "Capital Letter N",
+            "BINARY": "01001110",
+            "OCTAL": "116",
+            "DECIMAL": "78",
+            "HEXADECIMAL": "4E",
+            "UNICODE": "U+004E"
+        },
+        {
+            "SYMBOL": "O",
+            "DESCRIPTION": "Capital Letter O",
+            "BINARY": "01001111",
+            "OCTAL": "117",
+            "DECIMAL": "79",
+            "HEXADECIMAL": "4F",
+            "UNICODE": "U+004F"
+        },
+        {
+            "SYMBOL": "P",
+            "DESCRIPTION": "Capital Letter P",
+            "BINARY": "01010000",
+            "OCTAL": "120",
+            "DECIMAL": "80",
+            "HEXADECIMAL": "50",
+            "UNICODE": "U+0050"
+        },
+        {
+            "SYMBOL": "Q",
+            "DESCRIPTION": "Capital Letter Q",
+            "BINARY": "01010001",
+            "OCTAL": "121",
+            "DECIMAL": "81",
+            "HEXADECIMAL": "51",
+            "UNICODE": "U+0051"
+        },
+        {
+            "SYMBOL": "R",
+            "DESCRIPTION": "Capital Letter R",
+            "BINARY": "01010010",
+            "OCTAL": "122",
+            "DECIMAL": "82",
+            "HEXADECIMAL": "52",
+            "UNICODE": "U+0052"
+        },
+        {
+            "SYMBOL": "S",
+            "DESCRIPTION": "Capital Letter S",
+            "BINARY": "01010011",
+            "OCTAL": "123",
+            "DECIMAL": "83",
+            "HEXADECIMAL": "53",
+            "UNICODE": "U+0053"
+        },
+        {
+            "SYMBOL": "T",
+            "DESCRIPTION": "Capital Letter T",
+            "BINARY": "01010100",
+            "OCTAL": "124",
+            "DECIMAL": "84",
+            "HEXADECIMAL": "54",
+            "UNICODE": "U+0054"
+        },
+        {
+            "SYMBOL": "U",
+            "DESCRIPTION": "Capital Letter U",
+            "BINARY": "01010101",
+            "OCTAL": "125",
+            "DECIMAL": "85",
+            "HEXADECIMAL": "55",
+            "UNICODE": "U+0055"
+        },
+        {
+            "SYMBOL": "V",
+            "DESCRIPTION": "Capital Letter V",
+            "BINARY": "01010110",
+            "OCTAL": "126",
+            "DECIMAL": "86",
+            "HEXADECIMAL": "56",
+            "UNICODE": "U+0056"
+        },
+        {
+            "SYMBOL": "W",
+            "DESCRIPTION": "Capital Letter W",
+            "BINARY": "01010111",
+            "OCTAL": "127",
+            "DECIMAL": "87",
+            "HEXADECIMAL": "57",
+            "UNICODE": "U+0057"
+        },
+        {
+            "SYMBOL": "X",
+            "DESCRIPTION": "Capital Letter X",
+            "BINARY": "01011000",
+            "OCTAL": "130",
+            "DECIMAL": "88",
+            "HEXADECIMAL": "58",
+            "UNICODE": "U+0058"
+        },
+        {
+            "SYMBOL": "Y",
+            "DESCRIPTION": "Capital Letter Y",
+            "BINARY": "01011001",
+            "OCTAL": "131",
+            "DECIMAL": "89",
+            "HEXADECIMAL": "59",
+            "UNICODE": "U+0059"
+        },
+        {
+            "SYMBOL": "Z",
+            "DESCRIPTION": "Capital Letter Z",
+            "BINARY": "01011010",
+            "OCTAL": "132",
+            "DECIMAL": "90",
+            "HEXADECIMAL": "5A",
+            "UNICODE": "U+005A"
+        },
+        {
+            "SYMBOL": "[",
+            "DESCRIPTION": "Left Square Bracket",
+            "BINARY": "01011011",
+            "OCTAL": "133",
+            "DECIMAL": "91",
+            "HEXADECIMAL": "5B",
+            "UNICODE": "U+005B"
+        },
+        {
+            "SYMBOL": "\\",
+            "DESCRIPTION": "Reverse Solidus (Backslash)",
+            "BINARY": "01011100",
+            "OCTAL": "134",
+            "DECIMAL": "92",
+            "HEXADECIMAL": "5C",
+            "UNICODE": "U+005C"
+        },
+        {
+            "SYMBOL": "]",
+            "DESCRIPTION": "Right Square Bracket",
+            "BINARY": "01011101",
+            "OCTAL": "135",
+            "DECIMAL": "93",
+            "HEXADECIMAL": "5D",
+            "UNICODE": "U+005D"
+        },
+        {
+            "SYMBOL": "^",
+            "DESCRIPTION": "Circumflex Accent",
+            "BINARY": "01011110",
+            "OCTAL": "136",
+            "DECIMAL": "94",
+            "HEXADECIMAL": "5E",
+            "UNICODE": "U+005E"
+        },
+        {
+            "SYMBOL": "_",
+            "DESCRIPTION": "Low Line",
+            "BINARY": "01011111",
+            "OCTAL": "137",
+            "DECIMAL": "95",
+            "HEXADECIMAL": "5F",
+            "UNICODE": "U+005F"
+        },
+        {
+            "SYMBOL": "`",
+            "DESCRIPTION": "Grave Accent",
+            "BINARY": "01100000",
+            "OCTAL": "140",
+            "DECIMAL": "96",
+            "HEXADECIMAL": "60",
+            "UNICODE": "U+0060"
+        },
+        {
+            "SYMBOL": "a",
+            "DESCRIPTION": "Small Letter a",
+            "BINARY": "01100001",
+            "OCTAL": "141",
+            "DECIMAL": "97",
+            "HEXADECIMAL": "61",
+            "UNICODE": "U+0061"
+        },
+        {
+            "SYMBOL": "b",
+            "DESCRIPTION": "Small Letter b",
+            "BINARY": "01100010",
+            "OCTAL": "142",
+            "DECIMAL": "98",
+            "HEXADECIMAL": "62",
+            "UNICODE": "U+0062"
+        },
+        {
+            "SYMBOL": "c",
+            "DESCRIPTION": "Small Letter c",
+            "BINARY": "01100011",
+            "OCTAL": "143",
+            "DECIMAL": "99",
+            "HEXADECIMAL": "63",
+            "UNICODE": "U+0063"
+        },
+        {
+            "SYMBOL": "d",
+            "DESCRIPTION": "Small Letter d",
+            "BINARY": "01100100",
+            "OCTAL": "144",
+            "DECIMAL": "100",
+            "HEXADECIMAL": "64",
+            "UNICODE": "U+0064"
+        },
+        {
+            "SYMBOL": "e",
+            "DESCRIPTION": "Small Letter e",
+            "BINARY": "01100101",
+            "OCTAL": "145",
+            "DECIMAL": "101",
+            "HEXADECIMAL": "65",
+            "UNICODE": "U+0065"
+        },
+        {
+            "SYMBOL": "f",
+            "DESCRIPTION": "Small Letter f",
+            "BINARY": "01100110",
+            "OCTAL": "146",
+            "DECIMAL": "102",
+            "HEXADECIMAL": "66",
+            "UNICODE": "U+0066"
+        },
+        {
+            "SYMBOL": "g",
+            "DESCRIPTION": "Small Letter g",
+            "BINARY": "01100111",
+            "OCTAL": "147",
+            "DECIMAL": "103",
+            "HEXADECIMAL": "67",
+            "UNICODE": "U+0067"
+        },
+        {
+            "SYMBOL": "h",
+            "DESCRIPTION": "Small Letter h",
+            "BINARY": "01101000",
+            "OCTAL": "150",
+            "DECIMAL": "104",
+            "HEXADECIMAL": "68",
+            "UNICODE": "U+0068"
+        },
+        {
+            "SYMBOL": "i",
+            "DESCRIPTION": "Small Letter i",
+            "BINARY": "01101001",
+            "OCTAL": "151",
+            "DECIMAL": "105",
+            "HEXADECIMAL": "69",
+            "UNICODE": "U+0069"
+        },
+        {
+            "SYMBOL": "j",
+            "DESCRIPTION": "Small Letter j",
+            "BINARY": "01101010",
+            "OCTAL": "152",
+            "DECIMAL": "106",
+            "HEXADECIMAL": "6A",
+            "UNICODE": "U+006A"
+        },
+        {
+            "SYMBOL": "k",
+            "DESCRIPTION": "Small Letter k",
+            "BINARY": "01101011",
+            "OCTAL": "153",
+            "DECIMAL": "107",
+            "HEXADECIMAL": "6B",
+            "UNICODE": "U+006B"
+        },
+        {
+            "SYMBOL": "l",
+            "DESCRIPTION": "Small Letter l",
+            "BINARY": "01101100",
+            "OCTAL": "154",
+            "DECIMAL": "108",
+            "HEXADECIMAL": "6C",
+            "UNICODE": "U+006C"
+        },
+        {
+            "SYMBOL": "m",
+            "DESCRIPTION": "Small Letter m",
+            "BINARY": "01101101",
+            "OCTAL": "155",
+            "DECIMAL": "109",
+            "HEXADECIMAL": "6D",
+            "UNICODE": "U+006D"
+        },
+        {
+            "SYMBOL": "n",
+            "DESCRIPTION": "Small Letter n",
+            "BINARY": "01101110",
+            "OCTAL": "156",
+            "DECIMAL": "110",
+            "HEXADECIMAL": "6E",
+            "UNICODE": "U+006E"
+        },
+        {
+            "SYMBOL": "o",
+            "DESCRIPTION": "Small Letter o",
+            "BINARY": "01101111",
+            "OCTAL": "157",
+            "DECIMAL": "111",
+            "HEXADECIMAL": "6F",
+            "UNICODE": "U+006F"
+        },
+        {
+            "SYMBOL": "p",
+            "DESCRIPTION": "Small Letter p",
+            "BINARY": "01110000",
+            "OCTAL": "160",
+            "DECIMAL": "112",
+            "HEXADECIMAL": "70",
+            "UNICODE": "U+0070"
+        },
+        {
+            "SYMBOL": "q",
+            "DESCRIPTION": "Small Letter q",
+            "BINARY": "01110001",
+            "OCTAL": "161",
+            "DECIMAL": "113",
+            "HEXADECIMAL": "71",
+            "UNICODE": "U+0071"
+        },
+        {
+            "SYMBOL": "r",
+            "DESCRIPTION": "Small Letter r",
+            "BINARY": "01110010",
+            "OCTAL": "162",
+            "DECIMAL": "114",
+            "HEXADECIMAL": "72",
+            "UNICODE": "U+0072"
+        },
+        {
+            "SYMBOL": "s",
+            "DESCRIPTION": "Small Letter s",
+            "BINARY": "01110011",
+            "OCTAL": "163",
+            "DECIMAL": "115",
+            "HEXADECIMAL": "73",
+            "UNICODE": "U+0073"
+        },
+        {
+            "SYMBOL": "t",
+            "DESCRIPTION": "Small Letter t",
+            "BINARY": "01110100",
+            "OCTAL": "164",
+            "DECIMAL": "116",
+            "HEXADECIMAL": "74",
+            "UNICODE": "U+0074"
+        },
+        {
+            "SYMBOL": "u",
+            "DESCRIPTION": "Small Letter u",
+            "BINARY": "01110101",
+            "OCTAL": "165",
+            "DECIMAL": "117",
+            "HEXADECIMAL": "75",
+            "UNICODE": "U+0075"
+        },
+        {
+            "SYMBOL": "v",
+            "DESCRIPTION": "Small Letter v",
+            "BINARY": "01110110",
+            "OCTAL": "166",
+            "DECIMAL": "118",
+            "HEXADECIMAL": "76",
+            "UNICODE": "U+0076"
+        },
+        {
+            "SYMBOL": "w",
+            "DESCRIPTION": "Small Letter w",
+            "BINARY": "01110111",
+            "OCTAL": "167",
+            "DECIMAL": "119",
+            "HEXADECIMAL": "77",
+            "UNICODE": "U+0077"
+        },
+        {
+            "SYMBOL": "x",
+            "DESCRIPTION": "Small Letter x",
+            "BINARY": "01111000",
+            "OCTAL": "170",
+            "DECIMAL": "120",
+            "HEXADECIMAL": "78",
+            "UNICODE": "U+0078"
+        },
+        {
+            "SYMBOL": "y",
+            "DESCRIPTION": "Small Letter y",
+            "BINARY": "01111001",
+            "OCTAL": "171",
+            "DECIMAL": "121",
+            "HEXADECIMAL": "79",
+            "UNICODE": "U+0079"
+        },
+        {
+            "SYMBOL": "z",
+            "DESCRIPTION": "Small Letter z",
+            "BINARY": "01111010",
+            "OCTAL": "172",
+            "DECIMAL": "122",
+            "HEXADECIMAL": "7A",
+            "UNICODE": "U+007A"
+        },
+        {
+            "SYMBOL": "{",
+            "DESCRIPTION": "Left Curly Bracket",
+            "BINARY": "01111011",
+            "OCTAL": "173",
+            "DECIMAL": "123",
+            "HEXADECIMAL": "7B",
+            "UNICODE": "U+007B"
+        },
+        {
+            "SYMBOL": "|",
+            "DESCRIPTION": "Vertical Line (Vertical Bar)",
+            "BINARY": "01111100",
+            "OCTAL": "174",
+            "DECIMAL": "124",
+            "HEXADECIMAL": "7C",
+            "UNICODE": "U+007C"
+        },
+        {
+            "SYMBOL": "}",
+            "DESCRIPTION": "Right Curly Bracket",
+            "BINARY": "01111101",
+            "OCTAL": "175",
+            "DECIMAL": "125",
+            "HEXADECIMAL": "7D",
+            "UNICODE": "U+007D"
+        },
+        {
+            "SYMBOL": "~",
+            "DESCRIPTION": "Tilde",
+            "BINARY": "01111110",
+            "OCTAL": "176",
+            "DECIMAL": "126",
+            "HEXADECIMAL": "7E",
+            "UNICODE": "U+007E"
+        },
+        {
+            "SYMBOL": "DEL",
+            "DESCRIPTION": "Delete",
+            "BINARY": "01111111",
+            "OCTAL": "177",
+            "DECIMAL": "127",
+            "HEXADECIMAL": "7F",
+            "UNICODE": "U+007F"
+        }
+    ]
+}
